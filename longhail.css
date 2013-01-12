@@ -1,0 +1,267 @@
+body {
+	background-image: url('patterns/pattern2.jpg');
+	background-repeat: repeat;
+	/*background-color: #161616;*/
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	color: #ececec;
+}
+
+/*#comingsoon {
+	height: 237px;
+	width: 436px;
+	display: block;
+	margin: 150px auto;
+
+}*/
+
+strong {
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	/*text-shadow: 1px 1px #29abe2;*/
+	text-decoration: underline;
+}
+
+strong:hover {
+	font-size: 12pt;
+	font-style: italic;
+	font-weight: normal;
+	/*text-shadow: 1px 1px #29abe2;*/
+	text-decoration: underline;
+}
+
+#fixed {
+	background-image: url('patterns/pattern2.jpg');
+	position: fixed;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 9999;
+}
+
+#header {
+	width: 940px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 360px;
+	display: block;
+	float: left;
+}
+
+#logo img {
+	width: 250px;
+	margin-top: 30px;
+	margin-left: 6px;
+}
+
+#nav {
+	width: 580px;
+	height: 20px;
+	float:right;
+	display: block;
+	text-align: right;
+	margin-top: 70px;
+}
+
+#nav a {
+	text-decoration: none;
+	margin: 5px 10px;
+	display: inline-block;
+}
+
+#nav a span {
+	display: none;
+}
+
+
+#nav_projects {
+	width: 122px;
+	height: 17px;
+	background-image: url('nav_projekte.png');
+	background-size: 122px 17px;
+	background-repeat: no-repeat;
+}
+
+
+#nav_projects:hover {
+	background-image: url('nav_projekte_hover2.png');
+	background-repeat: no-repeat;
+
+}
+
+#nav_about {
+	width: 122px;
+	height: 17px;
+	background-image: url('nav_uebermich.png');
+	background-size: 122px 17px;
+	background-repeat: no-repeat;
+}
+
+
+#nav_about:hover {
+	background-image: url('nav_uebermich_hover2.png');
+	background-repeat: no-repeat;
+
+}
+
+#nav_contact {
+	width: 122px;
+	height: 17px;
+	background-image: url('nav_kontakt.png');
+	background-size: 122px 17px;
+	background-repeat: no-repeat;
+}
+
+
+#nav_contact:hover {
+	background-image: url('nav_kontakt_hover2.png');
+	background-repeat: no-repeat;
+
+}
+
+
+hr {
+	width: 940px;
+	margin: 0px auto;
+	border-top: 1px solid #ececec;
+	border-bottom: 0px solid #29abe2;
+}
+
+
+#content {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 150px;
+
+}
+
+#aboutme {
+	width: 940px;
+	height: 365px;
+	padding: 0;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+#aboutme p {
+
+	margin-top: 0;
+}
+
+#profilfoto {
+	padding: 0;
+	display: block;
+	/*margin: 0 auto;*/
+	margin-left: 220px;
+	float: left;
+}
+
+#profilfoto img {
+	width: 240px;
+	padding: 0;
+	margin: 0;
+}
+
+#landingtext {
+	width: 480px;
+	/*margin: 0px auto;*/
+	/*margin-bottom: 60px;*/
+	color: #ececec;
+	font-size: 12pt;
+	font-style: italic;
+	text-align: left;
+	line-height: 22pt;
+	display: block;
+	float: left;
+	/*font-weight: lighter;*/
+	/*text-shadow: 1px 1px #f0f0f0;*/
+
+}
+
+#landingtext a {
+	color: #29abe2;
+	text-decoration: none;
+
+}
+
+#landingtext a:hover {
+	color: #39b34a;
+
+}
+
+#thumbs {
+	width: 940px;
+	margin: 0 auto;
+	display: block;
+	border-top: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 50px;
+	clear: both;
+}
+
+#thumbs img {
+	width: 300px;
+}
+
+.top {
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-transition: opacity 0.6s ease-in-out;
+  	-moz-transition: opacity 0.6s ease-in-out;
+  	-o-transition: opacity 0.6s ease-in-out;
+  	transition: opacity 0.6s ease-in-out;
+}
+
+.top:hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+#thumbs img:hover {
+	width: 300px;
+
+}
+
+#thumbs .thumbnail {
+	background-color: #161616;
+	width: 300px;
+	display: inline-block;
+	margin: 0px 0;
+	margin-top: 50px;
+	box-shadow: 1px -1px 5px #000000;
+	position: relative;
+}
+
+#thumbs .middle-thumbnail {
+	margin: 0px 20px;
+	margin-top: 50px;
+}
+
+#thumbs h4 {
+	margin: 5px 5px;
+	color: #ececec;
+	font-size: 11pt;
+	font-weight: normal;
+	text-align: center;
+}
+
+
+#contact {
+	width: 500px;
+	margin: 70px auto;
+	/*margin-top: 70px;*/
+	color: #ececec;
+	font-size: 12pt;
+	font-style: italic;
+	/*font-weight: lighter;*/
+	text-align: left;
+	/*text-shadow: 1px 1px #f0f0f0;*/
+	line-height: 22pt;
+
+}
