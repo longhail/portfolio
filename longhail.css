@@ -86,10 +86,9 @@ strong:hover {
 }
 
 
-#nav_projects:hover {
+#nav_projects:hover, li.active #nav_projects {
 	background-image: url('nav_projekte_hover2.png');
 	background-repeat: no-repeat;
-
 }
 
 #nav_about {
@@ -101,10 +100,9 @@ strong:hover {
 }
 
 
-#nav_about:hover {
+#nav_about:hover, li.active #nav_about {
 	background-image: url('nav_uebermich_hover2.png');
 	background-repeat: no-repeat;
-
 }
 
 #nav_contact {
@@ -116,10 +114,9 @@ strong:hover {
 }
 
 
-#nav_contact:hover {
+#nav_contact:hover, li.active #nav_contact {
 	background-image: url('nav_kontakt_hover2.png');
 	background-repeat: no-repeat;
-
 }
 
 
@@ -130,24 +127,16 @@ hr {
 	border-bottom: 0px solid #29abe2;
 }
 
-
-#content {
-	width: 940px;
-	margin: 0 auto;
-	margin-top: 150px;
-
-}
-
 #aboutme {
 	width: 940px;
 	height: 365px;
 	padding: 0;
 	margin: 0 auto;
 	margin-bottom: 50px;
+	margin-top: 100px;
 }
 
 #aboutme p {
-
 	margin-top: 0;
 }
 
@@ -157,6 +146,7 @@ hr {
 	/*margin: 0 auto;*/
 	margin-left: 220px;
 	float: left;
+	padding-top: 50px;
 }
 
 #profilfoto img {
@@ -178,7 +168,7 @@ hr {
 	float: left;
 	/*font-weight: lighter;*/
 	/*text-shadow: 1px 1px #f0f0f0;*/
-
+	padding-top: 50px;
 }
 
 #landingtext a {
@@ -200,6 +190,7 @@ hr {
 	border-bottom: 1px solid #ececec;
 	padding-bottom: 50px;
 	clear: both;
+	margin-top: 50px;
 }
 
 #thumbs img {
@@ -254,7 +245,7 @@ hr {
 
 #contact {
 	width: 500px;
-	margin: 70px auto;
+	margin: 0 auto;
 	/*margin-top: 70px;*/
 	color: #ececec;
 	font-size: 12pt;
@@ -263,5 +254,20 @@ hr {
 	text-align: left;
 	/*text-shadow: 1px 1px #f0f0f0;*/
 	line-height: 22pt;
+	margin-bottom: 500px;
+	padding: 50px 0;
+}
 
+#contact p:first-child {
+	margin-top: 0;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	display: inline;
 }
